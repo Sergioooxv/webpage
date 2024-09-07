@@ -1,0 +1,119 @@
+.heroTextTitle h1{
+    font-family: syne;
+}
+
+.studiesCard {
+    padding: 20px;
+    border: 3px dashed black;
+    border-radius: 20px 0px 20px 20px;
+}
+
+.studiesCard h2 {
+    font-family: 'Syne', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+@media screen and (max-width:500px) {
+    .studiesCard h2 {
+        font-size: 1.7rem;
+    }
+    .correcion{
+        font-size: 1rem;
+    }
+}
+
+.studiesCard p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.studiesCard span {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    background-color: #222;
+    font-family: syne-vari;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.imgBackground {
+    background-image: url(../img/pcrepair.jpg);
+    background-size: cover;  /* La imagen cubrirá todo el contenedor */
+    background-position: center; /* Centramos la imagen */
+    background-repeat: no-repeat; /* Evitamos que la imagen se repita */
+    width: 100%;  /* Se ajusta al ancho de la columna */
+    height: 300px; /* Puedes ajustar la altura a tu gusto */
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.studiesCursoCard{
+    padding: 20px;
+    border: 3px dashed black;
+    border-radius: 20px 0px 20px 20px;
+}
+
+.studiesCursoCard h2 {
+    font-family: 'Syne', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.studiesCursoCard p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.studiesCursoCard span {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    background-color: #222;
+    font-family: syne-vari;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.blogBtn{
+    padding: 10px 20px 10px 20px;
+    border: black dashed 3px;
+    text-decoration: none;
+    font-family: syne;
+    font-size: 15px;
+    border-radius: 20px 20px 20px 20px;
+    color: black;
+    background-color: #fdbef8;
+}
+
+.blogBtn span{
+    padding: 10px;
+    font-size: 17px;
+}
+
+.btnProyect{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    background-color: #222;
+    border-radius: 20px 20px 20px 20px;
+    font-family: syne-vari;
+    margin-bottom: 20px;
+}
+
+.btnProyect i{
+    padding-right: 10px;
+}
+
+.cardLenguaje{
+    padding: 20px 20px 20px 20px;
+}
+
+.cardLenguaje img{
+    width: 150px;
+}

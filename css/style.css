@@ -1,0 +1,453 @@
+/*Estilos globales de la pagina web*/
+
+@font-face {
+    font-family: kana-regular;
+    src: url(../fonts/kanakira-regular.ttf);
+}
+
+@font-face {
+    font-family: kana-italic;
+    src: url(../fonts/kanakira-italic.ttf);
+}
+
+@font-face {
+    font-family: kana-bold;
+    src: url(../fonts/kanakira-bold.ttf);
+}
+
+@font-face {
+    font-family: syne-vari;
+    src: url(../fonts/Syne-VariableFont_wght.ttf);
+}
+
+:root {
+    --color-bg1: #faebcc;
+    --color-bg2: #ffee93;
+    --color-bg3: #ffc09f;
+    --color-bg4: #adf7b6;
+    --color-bg5: #a0ced9;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--font-color);
+    background-color: var(--color-bg1);
+    overflow-x: hidden;
+}
+
+/* Sección 1 - Menú */
+/* Estilos del menú */
+.navbar {
+    background: #faebcc !important;
+    backdrop-filter: blur(10px);
+    /* Compatibilidad con navegadores WebKit */
+    z-index: 1050;
+    border-bottom: solid 3px #000;
+}
+
+.navbar .styleLogo {
+    font-family: "Syne", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+
+}
+
+.nav-link-sin {
+    font-size: 19px;
+    padding: 10px 20px 10px 20px;
+    border: 3px solid black;
+    border-radius: 50px;
+    font-family: syne-vari;
+    font-weight: bold;
+    background-color:#a0ced9;
+}
+
+.nav-link-sin:hover {
+    border: 3px dashed rgb(48, 48, 48);
+}
+
+.navbar-nav .nav-link2 {
+    transition: color 0.3s, background-color 0.3s;
+    /* Agregamos transiciones para el color de texto y el color de fondo */
+    font-size: 19px;
+    /* Agregamos bordes redondeados */
+    padding: 5px 15px;
+    font-family: syne-vari;
+    color: #222;
+    color: rgb(78, 77, 77);
+}
+
+
+.navbar-nav .nav-item {
+    margin-left: 19px;
+}
+
+/* Sección 2 - Inicio de la pagina web */
+/*Estilos del video*/
+header {
+    margin-top: -82px;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: #000 solid 3px;
+    padding-bottom: 150px;
+}
+
+header .container {
+    z-index: 2;
+}
+
+header .overlay {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.heroTitle {
+    font-size: 2.9rem;
+    font-family: syne;
+}
+
+@media screen and (max-width:500px){
+    .heroTitle{
+        font-size: 2rem;
+    }
+}
+
+p {
+    color: rgb(26, 25, 25);
+    padding-right: 20px;
+    font-size: 17px;
+    font-family: kana-regular;
+}
+
+.btn-pers {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-right: 18px;
+    font-family: syne-vari;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 1px solid rgb(75, 75, 75);
+}
+
+.btn-pers:hover {
+    background-color: #fdbef8;
+    transition: 0.1s;
+    border: 1px dashed black;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+/* Sección 4 - Sobre Mí */
+.section2 {
+    background-image: url(../img/);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.downloadcv {
+    position: relative;
+    float: right;
+    right: 300px;
+
+    text-decoration: none;
+    color: black;
+}
+
+.cardAbout {
+    width: 100%;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 40px;
+}
+
+.card1 {
+    background-color: #6ac6c2;
+    border: 3px dashed black;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+
+}
+
+.card1:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.card2 {
+    background-color: #f8ca7a;
+    border: 3px dashed black;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+
+}
+
+.card2:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.card3 {
+    background-color: #d76251;
+    border: 3px dashed black;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+
+}
+
+.card3:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.card4 {
+    background-color: #f37c59;
+    border: 3px dashed black;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+
+}
+
+.card4:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.cardAbout h3 {
+    font-family: syne;
+}
+
+@media screen and  (max-width: 1396px) {
+    .cardAbout h3{
+        font-size: 2rem;
+    }
+}
+
+/*Separador estiloso*/
+.cardquote {
+    padding: 20px 20px;
+    border-radius: 19px 0px 19px 21px;
+    -webkit-border-radius: 19px 0px 19px 21px;
+    -moz-border-radius: 19px 0px 19px 21px;
+    background: #6ac6c2;
+    border: 4px dotted #000000;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.quote {
+    font-family: syne;
+    font-size: 20px;
+}
+
+.quoteautor {
+    font-family: "Pacifico", cursive;
+}
+
+.btn-container-sep {
+    width: 100%;
+    margin-top: 29px;
+    padding: 0;
+    /* Asegura que no haya padding lateral */
+}
+
+.btn-Separator {
+    display: block;
+    /* Asegura que el botón se comporte como un bloque */
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    padding: 15px 10px;
+    border-radius: 20px;
+    border: #000 dashed 3px;
+    font-family: syne;
+    text-align: center;
+    background-color: #adf7b6;
+    /* Centra el texto */
+}
+
+.btn-Separator:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+/* Sección 5 - Servicios y Virtudes */
+.cardService{
+    border: 3px dashed black;
+    border-radius: 28px 0px 28px 0px;
+    padding: 20px 20px;
+}
+
+.cardService h3{
+    font-family: syne;
+    
+}
+
+.cardService p{
+    padding-top: 10px;
+    
+}
+
+.cardService a{
+    
+}
+
+.cardService1{
+    background-color: #f37c59;
+}
+
+
+.cardService2{
+    background-color: #d76251;
+}
+
+.cardService3{
+    background-color: #f8ca7a;
+}
+
+.cardService4{
+    background-color: #6ac6c2;
+}
+
+.virtudeCards{
+    padding: 20px 20px;
+    border: dashed 3px black;
+}
+
+.virtudeCards h3{
+    font-size: 20px;
+    font-family: syne;
+}
+
+.virtudeCards p{
+    padding: 10px 10px;
+}
+
+.virtudeCards1{
+    border-radius: 28px 0px 0px 0px;
+    background-color: #9cba79;
+}
+
+.virtudeCards2{
+    border-radius: 0px 28px 0px 0px;
+    background-color: #6bcecc;
+}
+
+.virtudeCards3{
+    border-radius: 0px 0px 0px 28px;
+    background-color: #f8ca7a;
+}
+
+.virtudeCards4{
+    border-radius: 0px 0px 28px 0px;
+    background-color: #ea6a6a;
+}
+
+/* Sección 8 - Contacto */
+.contactCardRRSS{
+    background-color: #a0ced9;
+    padding: 20px 20px 20px 20px;
+    border: #000 3px dashed;
+    border-radius: 20px 0px 20px 20px;
+}
+
+.contactCardRRSS h3{
+    padding-top: 20px;
+    font-family: syne;
+    text-align: center;
+}
+
+.contactCardRRSS p{
+    padding: 20px;
+    font-size: 15px;
+}
+
+.contactCardRRSS li{
+    list-style: none;
+    display: inline;
+    padding-right: 50px;
+}
+
+.contactCardRRSS a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.contactCardText{
+    background-color: #adf7b6;
+    padding: 20px 20px 20px 20px;
+    border: #000 3px dashed;
+    border-radius: 20px 0px 20px 20px;
+}
+
+.contactCardText h3{
+    padding-top: 20px;
+    font-family: syne;
+    text-align: center;
+}
+
+.contactCardText p{
+    padding: 20px;
+    font-size: 15px;
+}
+
+.contactCardText a{
+    width: 100vh;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px 20px 10px 20px;
+    border: 3px dashed black;
+
+    font-family: syne;
+    color: #000;
+    text-decoration: none;
+    background-color: #fdbef8;
+}
+
+.contactCardMessage{
+    padding: 30px 30px 30px 30px;
+    border: 3px dashed black;
+    border-radius: 20px 0px 20px 0px;
+    background-color: #faebcc;
+}
+
+.contactCardMessage h3{
+    font-family: syne;
+}
+
+.contactCardMessage label{
+    font-family: syne-vari;
+}
+
+/* Input General */
+.form-control {
+    background-color: #ffffff; /* Fondo del input */
+    color: #333; /* Color del texto */
+    border: 3px solid rgb(0, 0, 0); /* Borde del input */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px 15px; /* Padding interno */
+    font-family: kana-regular; /* Fuente personalizada */
+    font-size: 16px; /* Tamaño del texto */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+}
+
+/* Cambios cuando el input está enfocado */
+.form-control:focus {
+    background-color: #ffffff; /* Fondo del input cuando está enfocado */
+    border: 3px dashed black;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.25); /* Sombra alrededor del input enfocado */
+    outline: none; /* Quitar el borde predeterminado del navegador */
+}
+
+.btn-pers-contact{
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px 20px 20px 20px;
+    border: dashed 3px black;
+    font-family: syne;
+    background-color: #fdbef8;
+}
+
