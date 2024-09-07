@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos de Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Estilos de CSS Propio -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link de google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!--Link de aos animation library-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Link de iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sergio's Portfolio | Desarrollador Web Freelancer</title>
+</head>
+
+<body>
+
+    <!-- Sección 1 - Menú -->
+    <nav class="navbar navbar-expand-lg bg-light sticky-top pt-3">
+        <div class="container-fluid" style="padding-left: 2%; padding-right: 2%;">
+            <a class="navbar-brand d-flex align-items-center styleLogo" href="index.html">
+                <h2 class="logo">My Portfolio</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- Menú a la izquierda -->
+                    <li class="nav-item">
+                        <a class="nav-link nav-link2" aria-current="page" href="index.html#about">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link2" href="index.html#service">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link2" href="index.html#contact">Contacto</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <!-- Botones a la derecha -->
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-sin" href="login.php">Agendar Llamada</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Sección 1 - Menú -->
+
+    <!-- Sección 2 - Inicio de la pagina web -->
+    <header>
+        <!-- The header content -->
+        <div class="container " style="margin-top: 300px;" data-aos="fade-down" data-aos-duration="3000">
+            <div class="row d-flex">
+                <div class="col-lg-6">
+                    <h1 class="heroTitle titleUpdate" id="ejemplo3">Sergio Salas<br> <span
+                            style="color: #774838;">Desarrollador</span> & <span
+                            style="color:#de5243;">Freelancer</span></h1>
+                    <div>
+                        <a href="register.php" class="btn btn-pers"><i class="fa-solid fa-phone"
+                                style="padding-right: 10px;"></i>
+                            Agendar Llamada</a>
+                        <a href="index.html#contact" class="btn btn-pers"><i class="fa-solid fa-message"
+                                style="padding-right: 10px;"></i>
+                            Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Sección 2 - Inicio de la pagina web -->
+
+    <!-- Sección 4 - Sobre Mí -->
+    <section class="container-fluid section2" id="about" style="border-bottom: #000 solid 5px;">
+        <div class="container" style="padding-top:150px;padding-bottom:150px">
+            <div class="row d-flex">
+                <div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="2000">
+                    <img src="img/fotoplaneta.png" class="img-fluid mb-5" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6" data-aos="fade-left"  data-aos-duration="2000">
+                    <h2 class="heroTitle" id="ejemplo3">¿Quien es Sergio Salas?</h2>
+                    <p style="padding-right:10px;">
+                        ¡Hola! Soy Sergio Salas, un joven emprendedor de 18 años apasionado por la informática y el
+                        emprendimiento. Estoy estudiando Desarrollo de Aplicaciones Multiplataforma y ya completé un
+                        grado en Sistemas Microinformáticos y Redes. Ofrezco servicios como freelancer en tecnología,
+                        combinando mi formación académica con mi pasión para brindar soluciones innovadoras a mis
+                        clientes.
+                    </p>
+                    <a href="files/Curriculum de Sergio.pdf" target="_blank"><img alt="foto del cv" class="img-fluid"
+                            onmouseout="this.src='img/Descargar CV.png';"
+                            onmouseover="this.src='img/Descargar CV2.png';" src="img/Descargar CV.png" /></a>
+                </div>
+            </div>
+            <div class="row d-flex" style="margin-top:200px;">
+                <div class="col-lg-12" data-aos="fade-down" data-aos-duration="2000">
+                    <h2 class="heroTitle" id="ejemplo3" style="text-align:center;">Experiencia & Trayectoria</h2>
+                    <p style="padding-right:10px; text-align:center;">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur quidem, cumque in ipsa
+                        voluptas velit sequi eaque dolores deleniti expedita, tenetur totam. Atque ipsa eligendi nobis
+                        expedita cum autem esse?
+                    </p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center" style="margin-top:70px;">
+                <div class="col-xxl-3 col-xl-6 col-lg-6 col-md-6 col-sm-12 p-2">
+                    <div class="cardAbout card1" data-aos="fade-right" data-aos-duration="2000">
+                        <h3>Estudios y Titulaciones</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe repudiandae officiis
+                            labore cumque libero nesciunt praesentium corporis harum consequatur omnis fuga odit,
+                            sequi maxime earum quaerat nisi tempora. Praesentium, consequatur.
+                        </p>
+                        <div class="row">
+                            <div class="col-12">
+                                <a href="studies.html">Saber Más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-6 col-lg-6 col-md-6 col-sm-12 p-2">
+                    <div class="cardAbout card2" data-aos="fade-up" data-aos-duration="2000">
+                        <h3>Experiencia Profesional</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe repudiandae officiis
+                            labore cumque libero nesciunt praesentium corporis harum consequatur omnis fuga odit,
+                            sequi maxime earum quaerat nisi tempora. Praesentium, consequatur.
+                        </p>
+                        <div class="row">
+                            <div class="col-12">
+                                <a href="experience.html">Saber Más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-6 col-lg-6 col-md-6 col-sm-12 p-2">
+                    <div class="cardAbout card3" data-aos="fade-down" data-aos-duration="2000">
+                        <h3>Proyectos Destacados</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe repudiandae officiis
+                            labore cumque libero nesciunt praesentium corporis harum consequatur omnis fuga odit,
+                            sequi maxime earum quaerat nisi tempora. Praesentium, consequatur.
+                        </p>
+                        <div class="row">
+                            <div class="col-12">
+                                <a href="proyect.html">Saber Más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-6 col-lg-6 col-md-6 col-sm-12 p-2">
+                    <div class="cardAbout card4" data-aos="fade-left" data-aos-duration="2000">
+                        <h3>Habilidades Técnicas</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe repudiandae officiis
+                            labore cumque libero nesciunt praesentium corporis harum consequatur omnis fuga odit,
+                            sequi maxime earum quaerat nisi tempora. Praesentium, consequatur.
+                        </p>
+                        <div class="row">
+                            <div class="col-12">
+                                <a href="skills.html">Saber Más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección 4 - Sobre Mí -->
+
+    <section class="container-fluid" style="background-color:#f8ca7a; border-bottom: #000 solid 5px;">
+        <div class="container" style="padding-top:100px;padding-bottom:100px">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-12" data-aos="fade-down" data-aos-duration="2000">
+                    <h2 class="heroTitle" id="ejemplo3" style="text-align:center;">Juguemos Juntos!!</h2>
+                    <p style="padding-right:10px; text-align:center;">
+                        ¡Asegura tu lugar en los eventos más emocionantes del año con facilidad! Desde conciertos hasta
+                        espectáculos inolvidables, nuestra plataforma te ofrece una compra de entradas rápida y segura.
+                        Con opciones de pago seguras y confirmación instantánea, disfrutar de tus eventos favoritos
+                        nunca fue tan fácil. ¡compra hoy y vive la emoción en primera fila!
+                    </p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center" style="margin-top:50px;">
+                <div class="col-lg-8 col-md-6 p-5" data-aos="fade-right" data-aos-duration="2000">
+                    <img src="img/game2.png" class="img-fluid" width="700px mx-auto d-block" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-left" data-aos-duration="2000" style="margin-top:100px;">
+                    <div class="cardquote">
+                        <p class="quote">"El capitalismo en linea es como un juego donde los primeros en registrar el
+                            dominio siempre ganan."</p>
+                        <span class="quoteautor">Paul Krugman</span>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="btn-container-sep">
+                                <a class="btn-Separator" href="index.html#contact">Clic Para Jugar!!!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección 5 - Servicios y Virtudes -->
+    <section class="container-fluid" id="service" style="border-bottom: #000 solid 5px;">
+        <div class="container" style="padding-top:150px;padding-bottom:150px">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-12" data-aos="fade-down" data-aos-duration="2000">
+                    <h2 class="heroTitle" id="ejemplo3" style="text-align:center;">Servicios y Virtudes</h2>
+                    <p style="padding-right:10px; text-align:center;">
+                        ¡Asegura tu lugar en los eventos más emocionantes del año con facilidad! Desde conciertos hasta
+                        espectáculos inolvidables, nuestra plataforma te ofrece una compra de entradas rápida y segura.
+                        Con opciones de pago seguras y confirmación instantánea, disfrutar de tus eventos favoritos
+                        nunca fue tan fácil. ¡compra hoy y vive la emoción en primera fila!
+                    </p>
+                </div>
+            </div>
+            <div class="row d-flex" style="margin-top:70px;">
+                <div class="col-lg-6 col-md-6 col-sm-12 p-3">
+                    <div class="cardService cardService1" data-aos="flip-left" data-aos-duration="2000">
+                        <h3>Desarrollo Web</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe nihil quaerat ab nulla quis
+                            amet iure! Nisi, quia dolorem nam mollitia natus reiciendis quidem cupiditate itaque?
+                            Officia consequatur vero commodi omnis ad quibusdam laborum. Voluptas dignissimos blanditiis
+                            consequatur nisi? Totam?
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 p-3">
+                    <div class="cardService cardService2" data-aos="flip-right" data-aos-duration="2000">
+                        <h3>Diseño Web</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe nihil quaerat ab nulla quis
+                            amet iure! Nisi, quia dolorem nam mollitia natus reiciendis quidem cupiditate itaque?
+                            Officia consequatur vero commodi omnis ad quibusdam laborum. Voluptas dignissimos blanditiis
+                            consequatur nisi? Totam?
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 p-3">
+                    <div class="cardService cardService3" data-aos="flip-left" data-aos-duration="2000">
+                        <h3>Hosting y Dominio</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe nihil quaerat ab nulla quis
+                            amet iure! Nisi, quia dolorem nam mollitia natus reiciendis quidem cupiditate itaque?
+                            Officia consequatur vero commodi omnis ad quibusdam laborum. Voluptas dignissimos blanditiis
+                            consequatur nisi? Totam?
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 p-3">
+                    <div class="cardService cardService4" data-aos="flip-right" data-aos-duration="2000">
+                        <h3>Desarrollo Web</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe nihil quaerat ab nulla quis
+                            amet iure! Nisi, quia dolorem nam mollitia natus reiciendis quidem cupiditate itaque?
+                            Officia consequatur vero commodi omnis ad quibusdam laborum. Voluptas dignissimos blanditiis
+                            consequatur nisi? Totam?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex" style="margin-top:150px;">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="2000">
+                    <h2 class="heroTitle">¿Y mis virtudes?</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quaerat placeat explicabo
+                        ratione unde! Et rem delectus, pariatur laboriosam doloribus iste modi quae vel minima cum nobis
+                        nesciunt libero. Corrupti.</p>
+                    <div class="row justify-content-center" style="margin-top:50px;">
+                        <div class="col-xxl-6 col-xl-12 col-lg-12 col-md-12 col-sm-12  p-3">
+                            <div class="virtudeCards virtudeCards1" data-aos="flip-left">
+                                <h3>Creatividad Innovadora</h3>
+                                <p>
+                                    Genero soluciones únicas y originales para cada proyecto, adaptándome a las
+                                    necesidades específicas de cada cliente.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-12 col-lg-12 col-md-12 col-sm-12  p-3">
+                            <div class="virtudeCards virtudeCards2" data-aos="flip-right" data-aos-duration="2000">
+                                <h3>Orientación al Detalle</h3>
+                                <p>
+                                    Cuido cada aspecto del diseño y desarrollo, asegurando un acabado profesional y de
+                                    alta calidad en cada entrega de mis clientes.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-12 col-lg-12 col-md-12 col-sm-12  p-3">
+                            <div class="virtudeCards virtudeCards3" data-aos="flip-left" data-aos-duration="2000">
+                                <h3>Eficiencia y Puntualidad</h3>
+                                <p>
+                                    Garantizo la entrega de proyectos dentro del plazo acordado, optimizando recursos
+                                    para alcanzar los mejores resultados posibles.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-12 col-lg-12 col-md-12 col-sm-12  p-3">
+                            <div class="virtudeCards virtudeCards4" data-aos="flip-right" data-aos-duration="2000">
+                                <h3>Comunicación Transparente</h3>
+                                <p>
+                                    Mantengo una Comunicación constante y clara con los clientes, asegurando que sus
+                                    ideas y expectativas se reflejen en el proyecto final.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" style="margin-top:80px;" data-aos="fade-left" data-aos-duration="2000">
+                    <img class="img-fluid" src="img/flower.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sección 5 - Servicios y Virtudes -->
+
+    <!-- Sección 6 - Contacto -->
+    <section class="container-fluid" id="contact" style="background-color:#f8ca7a; border-bottom: #000 solid 5px;">
+        <div class="container" style="padding-top:150px;padding-bottom:150px">
+            <div class="row d-flex">
+                <div class="col-lg-12" data-aos="fade-up" data-aos-duration="2000">
+                    <h2 class="heroTitle" id="ejemplo3" style="text-align:center;">Contacta Conmigo!!</h2>
+                    <p style="padding-right:10px; text-align:center;">
+                        ¡Asegura tu lugar en los eventos más emocionantes del año con facilidad! Desde conciertos hasta
+                        espectáculos inolvidables, nuestra plataforma te ofrece una compra de entradas rápida y segura.
+                        Con opciones de pago seguras y confirmación instantánea, disfrutar de tus eventos favoritos
+                        nunca fue tan fácil. ¡compra hoy y vive la emoción en primera fila!
+                    </p>
+                </div>
+            </div>
+            <div class="row d-flex" style="margin-top:50px;">
+                <div class="col-lg-6 p-3">
+                    <div class="contactCardRRSS" data-aos="fade-right" data-aos-duration="2000">
+                        <h3>Redes Sociales</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, magnam iure. Cumque corporis,
+                            asperiores minus eum, perferendis deleniti error nulla vel culpa dicta excepturi tempora
+                            amet architecto eveniet magni doloremque!
+                        </p>
+                        <div class="row d-flex text-center">
+                            <div class="col-lg-12">
+                                <ul>
+                                    <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-square-pinterest"></i></a></li>
+                                    <li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 p-3">
+                    <div class="contactCardText" style="padding-bottom:55px;" data-aos="fade-left" data-aos-duration="2000">
+                        <h3>¿Estas Listo?</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, magnam iure. Cumque corporis,
+                            asperiores minus eum, perferendis deleniti error nulla vel culpa dicta excepturi tempora
+                            amet architecto eveniet magni doloremque!</p>
+                        <div class="row d-flex justify-content-center text-center">
+                            <div class="col-lg-12">
+                                <a href="">Agendar Llamada</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center" style="margin-top:20px;">
+                <div class="col-lg-12">
+                    <div class="contactCardMessage" data-aos="fade-up" data-aos-duration="2000">
+                        <h3>Formulario de Contacto</h3>
+                        <form action="https://formspree.io/f/xyzgvlea" method="POST" enctype="multipart/form-data">
+                            <!-- 2 column grid layout with text inputs for the first and last names -->
+                            <div class="row mt-4 mb-4">
+                                <div class="col-lg-6 col-sm-12">
+                                    <div data-mdb-input-init class="form-outline">
+                                        <input type="text" id="form6Example1" class="form-control" name="nombre"
+                                            required />
+                                        <label class="form-label" for="form6Example1">Nombre</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-12">
+                                    <div data-mdb-input-init class="form-outline">
+                                        <input type="text" id="form6Example2" class="form-control" name="apellidos"
+                                            required />
+                                        <label class="form-label" for="form6Example2">Apellidos</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-lg-6 col-sm-12">
+                                    <div data-mdb-input-init class="form-outline">
+                                        <input type="text" id="form6Example3" class="form-control" name="asunto"
+                                            required />
+                                        <label class="form-label" for="form6Example3">Asunto</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-12">
+                                    <div data-mdb-input-init class="form-outline">
+                                        <input type="email" id="form6Example4" class="form-control"
+                                            name="correoElectronico" required />
+                                        <label class="form-label" for="form6Example4">Correo Electronico</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Message input -->
+                            <div data-mdb-input-init class="form-outline mb-4">
+                                <textarea class="form-control" id="form6Example7" rows="4"
+                                    style="resize:none; width: 100%; height:250px;" name="mensaje" required></textarea>
+                                <label class="form-label" for="form6Example7">Mensaje</label>
+                            </div>
+
+                            <!-- Submit button -->
+                            <input class=" btn-pers-contact btn-block mb-4" type="submit" value="Enviar Formulario">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sección 6 - Contacto -->
+
+
+    <!-- Scripts de Bootstrap 5-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <!-- Scripts Propios de JavaScript-->
+    <script src="js/main.js"></script>
+
+    <!--Aos Animation Library-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
